@@ -8,6 +8,7 @@ const noticiaSchema = new Schema({
     },
     imagen:{
         required: true,
+        type: String
     },
     descripcion:{
         required: true,

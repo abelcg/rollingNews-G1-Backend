@@ -7,7 +7,7 @@ const categoriaSchema = new Schema({
         maxlength: 50
     },
     descripcion:{
-        required: true,
+        required: false,
         type: String,
         maxlength: 100
     }
