@@ -3,6 +3,7 @@ import morgan from "morgan";
 import cors from "cors";
 import path from "path";
 import routes from "./routes/noticia.routes";
+import "./database";
 
 // instanciar express
 const app = express();
