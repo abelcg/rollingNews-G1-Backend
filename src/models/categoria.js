@@ -1,14 +1,15 @@
-import mongoose, {Mongoose, Schema} from 'mongoose';
+import mongoose, {Schema} from 'mongoose';
 
 const categoriaSchema = new Schema({
     nombre:{
         required: true,
         type: String,
-        maxlength: 50
+        maxlength: 30,
+        unique: true
     },
     descripcion:{
         type: String,
-        maxlength: 100
+        maxlength: 80
     }
 });
 

@@ -4,11 +4,13 @@ const noticiaSchema = new Schema({
     titulo:{
         required: true,
         type: String,
-        maxlength: 150
+        maxlength: 100,
+        unique: true
     },
     imagen:{
         required: true,
-        type: String
+        type: String,
+        maxlength: 180,
     },
     descripcion:{
         required: true,

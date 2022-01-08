@@ -3,13 +3,15 @@ import morgan from "morgan";
 import cors from "cors";
 import path from "path";
 import routes from "./routes/noticia.routes";
+import route from "./routes/categoria.routes";
 import "./database";
 
 // instanciar express
 const app = express();
 
+
 // crear un puerto
-app.set("port", 4000);
+app.set("port", process.env.PORT || 4000);
 
 app.listen(app.get("port"), () => {
   console.log("Estoy en el puerto " + app.get("port"));
@@ -26,4 +28,5 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, "../public")));
 
 //crear rutas
-app.use("/apinoticias", routes);
+app.use("/apinoticias", routes, route);
+
