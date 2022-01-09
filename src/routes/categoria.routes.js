@@ -7,8 +7,12 @@ const route = Router();
 // creo las rutas
 
 route
+  .route("/categoria/")
+  .get(categoriaCtrl.categoriasNav);
+
+route
   .route("/categorias/")
-  .delete(categoriaCtrl.listaCategorias)
+  .get(categoriaCtrl.listaCategorias)
   .post(categoriaCtrl.nuevaCategoria);
 
 route

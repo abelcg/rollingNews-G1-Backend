@@ -10,12 +10,12 @@ const noticiaSchema = new Schema({
     imagen:{
         required: true,
         type: String,
-        maxlength: 180,
+        maxlength: 200,
     },
     descripcion:{
         required: true,
         type: String,
-        maxlength: 200
+        maxlength: 280
     },
     contenido:{
         required: true,

@@ -7,8 +7,12 @@ const routes = Router();
 // creo las rutas
 
 routes
+  .route("/")
+  .get(noticiaCtrl.noticiasXcategoria);
+
+routes
   .route("/noticias/")
-  .delete(noticiaCtrl.listaNoticias)
+  .get(noticiaCtrl.listaNoticias)
   .post(noticiaCtrl.nuevaNoticia);
 
 routes
