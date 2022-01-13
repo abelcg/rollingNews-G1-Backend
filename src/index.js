@@ -4,6 +4,7 @@ import cors from "cors";
 import path from "path";
 import routes from "./routes/noticia.routes";
 import route from "./routes/categoria.routes";
+import ruta from "./routes/login.routes"
 import "./database";
 
 // instanciar express
@@ -28,5 +29,5 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, "../public")));
 
 //crear rutas
-app.use("/apinoticias", routes, route);
+app.use("/apinoticias", routes, route, ruta);
 
