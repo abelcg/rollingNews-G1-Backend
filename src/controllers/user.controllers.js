@@ -31,7 +31,7 @@ userCtrl.nuevoUser = async (req, res) => {
     if (userExistente) {
       return res
         .status(400)
-        .json({ msg: "La cuenta con este email ya existe." });
+        .json({ mensaje: "La cuenta con este email ya existe." });
     }
     if (validarEmail(req.body.usuarioEmail)) {
       // crear un hash del password del ussuario antes de guardar en BD

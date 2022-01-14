@@ -12,7 +12,7 @@
 ## ✨ [Demo](<%= projectDemoUrl %>)
 <br>
 
-### 🌟 [Deploy del backend en Heroku con BD en mongo Atlas](<%= projectDeploy>)
+### 🌟 [Deploy del backend en Heroku con BD en mongo Atlas]( https://rolling--news.herokuapp.com/)
 <br>
 
 ## Install
