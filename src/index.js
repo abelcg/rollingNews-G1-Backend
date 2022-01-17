@@ -7,6 +7,7 @@ import route from "./routes/categoria.routes";
 import ruta from "./routes/login.routes"
 import "./database";
 
+
 // instanciar express
 const app = express();
 
@@ -30,4 +31,6 @@ app.use(express.static(path.join(__dirname, "../public")));
 
 //crear rutas
 app.use("/apinoticias", routes, route, ruta);
+
+
 

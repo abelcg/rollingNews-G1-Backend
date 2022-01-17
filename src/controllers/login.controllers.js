@@ -37,4 +37,8 @@ loginCtrl.login = async (req, res) => {
 } else { res.status(404).json({ mensaje: "Error: debe ingresar un email valido" }) }
 };
 
+loginCtrl.adminBoard = (req, res) => {
+  res.status(200).send({ auth: true, mensaje: "Contenido de Admnin"});
+};
+
 export default loginCtrl;

@@ -2,6 +2,7 @@ import User from "../models/user";
 import { validarEmail } from "../controllers/helpers";
 const bcrypt = require("bcryptjs");
 
+
 const userCtrl = {};
 
 userCtrl.nuevoUser = async (req, res) => {
