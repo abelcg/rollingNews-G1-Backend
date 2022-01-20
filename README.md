@@ -4,7 +4,7 @@
 <p>
 
 ## Descripción
-> Este es el backend del proyecto Rollingnews: un portal de noticias digital fullstack, con una página principal, página de noticias por categorias, post individual y login/registro para administrador con autorización de usuarios con JWT, página de admin con un diseño de dashboard y una sección para el CRUD de noticias y categorias.
+> Este es el backend del proyecto [Rollingnews](https://github.com/abelcg/rollingNews-G1): un portal de noticias digital fullstack, con una página principal, página de noticias por categorias, post individual y login/registro para administrador con autorización de usuarios con JWT, página de admin con un diseño de dashboard y una sección para el CRUD de noticias y categorias.
 <br>El presente proyecto de backend es una API REST con node.js, Express y base de datos mongoDB, con servicios de encriptación de password  en login/registro con bcrypt y autentificacón/autorización de usuarios con JWT.
 
 <hr>
