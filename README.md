@@ -9,7 +9,7 @@
 
 <hr>
 
-## ✨ [Demo](<%= projectDemoUrl %>)
+## ✨ [Demo](https://diariorollingnews.netlify.app/)
 <br>
 
 ### 🌟 [Deploy del backend en Heroku con BD en mongo Atlas]( https://rolling--news.herokuapp.com/)
