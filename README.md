@@ -40,7 +40,7 @@ npm run dev
 👤 **Córdoba González, Abel**
 
 * GitHub: [abelcg](https://github.com/abelcg)
-* Twitter: [abelcg](https://twitter.com/abelcg)
+
 
 ### Colaboradores
 - Garcia Andrés Uriel
