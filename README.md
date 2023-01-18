@@ -12,7 +12,7 @@
 ## ✨ [Demo](https://diariorollingnews.netlify.app/)
 <br>
 
-### 🌟 [Deploy del backend en Reder con BD en mongo Atlas]( https://rolling-news.onrender.com/ )
+### 🌟 [Deploy del backend en Render con BD en mongo Atlas]( https://rolling-news.onrender.com/ )
 <br>
 
 ## Install
